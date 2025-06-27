@@ -1,0 +1,559 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pan Grill</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="shortcut icon" href="favicon.png" type="image/x-icon">
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; style-src 'self' https://fonts.googleapis.com; font-src https://fonts.gstatic.com; img-src 'self' data:; script-src 'self';">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700&family=Roboto:wght@300;400;700&display=swap">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-links-wrapper">
+                <ul class="nav-links">
+                    <li><a href="#all-day-breakfast" class="nav-link">All Day Breakfast</a></li>
+                    <li><a href="#soup-and-salad" class="nav-link">Soup & Salad</a></li>
+                    <li><a href="#pica-pica" class="nav-link">Pica-Pica</a></li>
+                    <li><a href="#sandwiches" class="nav-link">Sandwiches</a></li>
+                    <li><a href="#pasta" class="nav-link">Pasta</a></li>
+                </ul>
+            </div>
+            <div class="search-bar">
+                <input type="text" id="search-input" placeholder="Search menu items..." aria-label="Search menu items">
+            </div>
+        </div>
+    </nav>
+    <div class="container">
+        <div class="header">
+            <img src="images.png" alt="">
+            <h1 class="restaurant-name">MENU</h1>
+            <div class="menu-header-contents">
+                <p class="schedule">Monday - Thursday: 8:00 AM - 10:00 PM</p>
+                <p class="schedule">Friday - Sunday: 8:00 AM - 10:30 PM</p>
+                <p class="restaurant-tagline">Roof Deck, Overland Bldng, Antero Soriano Highway Ibayo Silangan Naic, Cavite</p>
+            </div>
+        </div>
+
+        <div class="menu-section" id="all-day-breakfast">
+            <div class="section-header">All Day Breakfast</div>
+            <div class="menu-items">
+                <div class="menu-item">
+                    <div class="item-info">
+                        <div class="tag-wrapper">
+                            <div class="item-name"><img src="like.png" alt="like">American Breakfast <img src="pork.png" alt="pork"></div>
+                            <div class="special-tag">[8:00 - 11:30AM]</div>
+                        </div>
+                        <div class="item-ingredients">pancakes | eggs | bacon | schublig sausage | potato wedges</div>
+                    </div>
+                    <div class="item-price">₱340</div>
+                </div>
+                
+                <div class="menu-item">
+                    <div class="item-info">
+                        <div class="tag-wrapper">
+                            <div class="item-name">Continental Breakfast <img src="pork.png" alt="pork"></div>
+                        </div>
+                        <div class="item-ingredients">toasted wheat bread | eggs | bacon | vinaigrette vegetables salad</div>
+                    </div>
+                    <div class="item-price">₱260</div>
+                </div>
+
+                <div class="menu-item">
+                    <div class="item-info">
+                        <div class="tag-wrapper">
+                            <div class="item-name"><img src="like.png" alt="like">Ham & Cheese Omelette <img src="pork.png" alt="pork"></div>
+                            <div class="special-tag">[8:00 - 11:30AM]</div>
+                        </div>
+                        <div class="item-ingredients">sweet ham | cheddar cheese | eggs | french toast</div>
+                    </div>
+                    <div class="item-price">₱210</div>
+                </div>
+
+                <div class="menu-item">
+                    <div class="item-info">
+                        <div class="tag-wrapper">
+                            <div class="item-name">Herb Omelette</div>
+                            <div class="special-tag">[8:00 - 11:30AM]</div>
+                        </div>
+                        <div class="item-ingredients">sauteed mushroom with bell peppers | onions | carrots | eggs | french toast</div>
+                    </div>
+                    <div class="item-price">₱200</div>
+                </div>
+
+                <div class="menu-item">
+                    <div class="item-info">
+                        <div class="tag-wrapper">
+                            <div class="item-name">Chicken & Waffles</div>
+                        </div>
+                        <div class="item-ingredients">waffles | boneless fried chicken | vinaigrette salad</div>
+                    </div>
+                    <div class="item-price">₱320</div>
+                </div>
+                
+                <div class="menu-item">
+                    <div class="item-info">
+                        <div class="tag-wrapper">
+                            <div class="item-name">Pancakes</div>
+                            <div class="special-tag">[8:00 - 11:30AM]</div>
+                        </div>
+                        <div class="item-ingredients">pancakes | maple syrup | butter</div>
+                    </div>
+                    <div class="item-price">₱140</div>
+                </div>
+
+                <div class="menu-item">
+                    <div class="item-info">
+                        <div class="tag-wrapper">
+                            <div class="item-name">Waffles</div>
+                        </div>
+                        <div class="item-ingredients">waffles | maple syrup | butter</div>
+                    </div>
+                    <div class="item-price">₱150</div>
+                </div>
+
+                <div class="menu-item">
+                    <div class="item-info">
+                        <div class="tag-wrapper">
+                            <div class="item-name">Nutella & Banana Waffles</div>
+                        </div>
+                        <div class="item-ingredients">waffles | banana | nutella spread</div>
+                    </div>
+                    <div class="item-price">₱180</div>
+                </div>
+
+                <div class="menu-item">
+                    <div class="item-info">
+                        <div class="tag-wrapper">
+                            <div class="item-name">French Toast</div>
+                            <div class="special-tag">[8:00 - 11:30AM]</div>
+                        </div>
+                        <div class="item-ingredients">french toast | maple syrup | butter</div>
+                    </div>
+                    <div class="item-price">₱150</div>
+                </div>
+
+                <div class="menu-item">
+                    <div class="item-info">
+                        <div class="tag-wrapper">
+                            <div class="item-name">Cheesy Tapsilog</div>
+                        </div>
+                        <div class="item-ingredients">tapa | egg | garlic rice | cheese sauce</div>
+                    </div>
+                    <div class="item-price">₱150</div>
+                </div>
+
+                <div class="menu-item">
+                    <div class="item-info">
+                        <div class="tag-wrapper">
+                            <div class="item-name">Cheesy Bacsilog <img src="pork.png" alt="pork"></div>
+                        </div>
+                        <div class="item-ingredients">bacon | egg | garlic rice | cheese sauce</div>
+                    </div>
+                    <div class="item-price">₱150</div>
+                </div>
+
+                <div class="menu-item">
+                    <div class="item-info">
+                        <div class="tag-wrapper">
+                            <div class="item-name">Cheesy Bac + Tap Combo <img src="pork.png" alt="pork"></div>
+                        </div>
+                        <div class="item-ingredients">bacon | egg | garlic rice | cheese sauce</div>
+                    </div>
+                    <div class="item-price">₱180</div>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="menu-section" id="soup-and-salad">
+            <div class="section-header">Soup & Salad</div>
+            <div class="menu-items">
+                <div class="menu-item">
+                    <div class="item-info">
+                        <div class="tag-wrapper">
+                            <div class="item-name">Cream of Chicken Soup</div>
+                        </div>
+                        <div class="item-ingredients">cream | chicken stock</div>
+                    </div>
+                    <div class="item-price">₱140</div>
+                </div>
+
+                <div class="menu-item">
+                    <div class="item-info">
+                        <div class="tag-wrapper">
+                            <div class="item-name"><img src="like.png" alt="like">Cream of Mushroom Soup</div>
+                        </div>
+                        <div class="item-ingredients">cream | mushrooms</div>
+                    </div>
+                    <div class="item-price">₱140</div>
+                </div>
+
+                <div class="menu-item">
+                    <div class="item-info">
+                        <div class="tag-wrapper">
+                            <div class="item-name">All Vegetables Salad</div>
+                        </div>
+                        <div class="item-ingredients">lettuce | cucumber | tomato | carrots | black olives | parmesan cheese | croutons | dressing of choice</div>
+                    </div>
+                    <div class="item-price">₱160</div>
+                </div>
+
+                <div class="menu-item">
+                    <div class="item-info">
+                        <div class="tag-wrapper">
+                            <div class="item-name"><img src="like.png" alt="like">Bacon Vegetables Salad <img src="pork.png" alt="pork"></div>
+                        </div>
+                        <div class="item-ingredients">bacon | lettuce | cucumber | tomato | carrots | black olives | parmesan cheese | croutons | dressing of choice</div>
+                    </div>
+                    <div class="item-price">₱170</div>
+                </div>
+
+                <div class="menu-item">
+                    <div class="item-info">
+                        <div class="tag-wrapper">
+                            <div class="item-name">Chicken Vegetables Salad</div>
+                        </div>
+                        <div class="item-ingredients">chicken | lettuce | cucumber | tomato | carrots | black olives | parmesan cheese | croutons | dressing of choice</div>
+                    </div>
+                    <div class="item-price">₱180</div>
+                </div>
+
+                <div class="menu-item">
+                    <div class="item-info">
+                        <div class="tag-wrapper">
+                            <div class="item-name">Tuna & Egg Vegetables Salad</div>
+                        </div>
+                        <div class="item-ingredients">tuna | egg | lettuce | cucumber | tomato | carrots | black olives | parmesan cheese | croutons | dressing of choice</div>
+                    </div>
+                    <div class="item-price">₱190</div>
+                </div>
+            </div>
+        </div>
+
+        <div class="menu-section" id="pica-pica">
+            <div class="section-header">Pica-Pica</div>
+            <div class="menu-items">
+
+                <div class="menu-item">
+                    <div class="item-info">
+                        <div class="tag-wrapper">
+                            <div class="item-name">Salted Fries</div>
+                        </div>
+                        <div class="item-ingredients">fries | drizzled mayo</div>
+                    </div>
+                    <div class="item-price">₱130</div>
+                </div>
+                
+                <div class="menu-item">
+                    <div class="item-info">
+                        <div class="tag-wrapper">
+                            <div class="item-name"><img src="like.png" alt="like">Cheesy Bacon Fries <img src="pork.png" alt="pork"></div>
+                        </div>
+                        <div class="item-ingredients">fries | spiced cheese sauce | shredded cheese | bacon bits | drizzled mayo</div>
+                    </div>
+                    <div class="item-price">₱190</div>
+                </div>
+
+                <div class="menu-item">
+                    <div class="item-info">
+                        <div class="tag-wrapper">
+                            <div class="item-name">Cheesy Beef Nachos</div>
+                        </div>
+                        <div class="item-ingredients">corn chips | spiced cheese sauce | mexican ground beef | shredded cheese | drizzled mayo</div>
+                    </div>
+                    <div class="item-price">₱150</div>
+                </div>
+            
+                <div class="menu-item">
+                    <div class="item-info">
+                        <div class="tag-wrapper">
+                            <div class="item-name"><img src="like.png" alt="like">Nachos Supreme</div>
+                        </div>
+                        <div class="item-ingredients">corn chips | spiced cheese sauce | mexican ground beef | vegetables (lettuce, tomato, cucumber) | shredded cheese | drizzled mayo</div>
+                    </div>
+                    <div class="item-price">₱180</div>
+                </div>
+
+                <div class="menu-item">
+                    <div class="item-info">
+                        <div class="tag-wrapper">
+                            <div class="item-name">Baked Nachos</div>
+                        </div>
+                        <div class="item-ingredients">corn chips | based nacho dip (spiced cheese sauce, mozzarella, sharp cheddar, mexican ground beef)</div>
+                    </div>
+                    <div class="item-price">₱250</div>
+                </div>
+
+                <div class="menu-item">
+                    <div class="item-info">
+                        <div class="tag-wrapper">
+                            <div class="item-name"><img src="like.png" alt="like">Cereal Chicken</div>
+                        </div>
+                        <div class="item-ingredients">chicken strips coated with cereal corn flakes</div>
+                    </div>
+                    <div class="item-price">₱180</div>
+                </div>
+
+                <div class="menu-item">
+                    <div class="item-info">
+                        <div class="tag-wrapper">
+                            <div class="item-name">Nuggets & Fries</div>
+                        </div>
+                        <div class="item-ingredients">6 pcs. chicken nuggets | fries | bbq sauce</div>
+                    </div>
+                    <div class="item-price">₱180</div>
+                </div>
+
+                <div class="menu-item">
+                    <div class="item-info">
+                        <div class="tag-wrapper">
+                            <div class="item-name">Fish & Fries</div>
+                        </div>
+                        <div class="item-ingredients">fried cream dory fish | fries | bbq sauce</div>
+                    </div>
+                    <div class="item-price">₱180</div>
+                </div>
+            </div>
+        </div>
+
+        <div class="menu-section" id="sandwiches">
+            <div class="section-header">Sandwiches</div>
+            <div class="menu-items">
+
+                <div class="menu-item">
+                    <div class="item-info">
+                        <div class="tag-wrapper">
+                            <div class="item-name"><img src="like.png" alt="like">Ham & Cheese Sandwich <img src="pork.png" alt="pork"></div>
+                        </div>
+                        <div class="item-ingredients">mayo | ham | mozzarella | cheese</div>
+                    </div>
+                    <div class="item-price">₱160</div> 
+                </div>
+
+                <div class="menu-item">
+                    <div class="item-info">
+                        <div class="tag-wrapper">
+                            <div class="item-name">BLT Sandwich <img src="pork.png" alt="pork"></div>
+                        </div>
+                        <div class="item-ingredients">mayo | bacon | lettuce | tomato | cheese</div>
+                    </div>
+                    <div class="item-price">₱160</div> 
+                </div>
+
+                <div class="menu-item">
+                    <div class="item-info">
+                        <div class="tag-wrapper">
+                            <div class="item-name">PTM Sandwich</div>
+                        </div>
+                        <div class="item-ingredients">pesto | tomato | mozzarella</div>
+                    </div>
+                    <div class="item-price">₱150</div> 
+                </div>
+
+                <div class="menu-item">
+                    <div class="item-info">
+                        <div class="tag-wrapper">
+                            <div class="item-name">Four Cheese</div>
+                        </div>
+                        <div class="item-ingredients">mozzarella | sharp cheddar | american cheese | parmesan</div>
+                    </div>
+                    <div class="item-price">₱160</div> 
+                </div>
+
+                <div class="menu-item">
+                    <div class="item-info">
+                        <div class="tag-wrapper">
+                            <div class="item-name">Tuna & Creamcheese</div>
+                        </div>
+                        <div class="item-ingredients">tuna | creamcheese | lettuce</div>
+                    </div>
+                    <div class="item-price">₱170</div> 
+                </div>
+                
+                <div class="menu-item">
+                    <div class="item-info">
+                        <div class="tag-wrapper">
+                            <div class="item-name">Burger Sandwich</div>
+                        </div>
+                        <div class="item-ingredients">pure beef patty | lettuce | tomato | cucumber | american cheese | garlic aioli sauce</div>
+                    </div>
+                    <div class="item-price">₱180</div> 
+                </div>
+
+                <div class="menu-item">
+                    <div class="item-info">
+                        <div class="tag-wrapper">
+                            <div class="item-name">Chicken Sandwich</div>
+                        </div>
+                        <div class="item-ingredients">boneless fried chicken | lettuce |  cheese | garlic aioli sauce</div>
+                    </div>
+                    <div class="item-price">₱180</div> 
+                </div>
+
+                <div class="menu-item">
+                    <div class="item-info">
+                        <div class="tag-wrapper">
+                            <div class="item-name">Clubhouse Sandwich</div>
+                        </div>
+                        <div class="item-ingredients">wheat bread | mayo | ham | egg | american cheese | lettuce | tomato | cucumber</div>
+                    </div>
+                    <div class="item-price">₱200</div> 
+                </div>
+
+            </div>
+        </div>
+
+        <div class="menu-section" id="pasta">
+            <div class="section-header">Pasta</div>
+            <div class="menu-items">
+
+                <div class="menu-item">
+                    <div class="item-info">
+                        <div class="tag-wrapper">
+                            <div class="item-name">Creamy Spaghetti <img src="pork.png" alt="pork"></div>
+                        </div>
+                        <div class="item-ingredients">pasta | filipino-style sweet spaghetti sauce | cream</div>
+                    </div>
+                    <div class="item-price">₱160</div> 
+                </div>
+
+                <div class="menu-item">
+                    <div class="item-info">
+                        <div class="tag-wrapper">
+                            <div class="item-name"><img src="like.png" alt="like">Carbonara <img src="pork.png" alt="pork"></div>
+                        </div>
+                        <div class="item-ingredients">pasta | filipino-style carbonara sauce | cream</div>
+                    </div>
+                    <div class="item-price">₱170</div> 
+                </div>
+
+                <div class="menu-item">
+                    <div class="item-info">
+                        <div class="tag-wrapper">
+                            <div class="item-name">Penne Pesto </div>
+                        </div>
+                        <div class="item-ingredients">penne pasta | basil | pesto sauce</div>
+                    </div>
+                    <div class="item-price">₱170</div> 
+                </div>
+
+                <div class="menu-item">
+                    <div class="item-info">
+                        <div class="tag-wrapper">
+                            <div class="item-name">Aglio E Olio </div>
+                        </div>
+                        <div class="item-ingredients">spaghetti pasta | garlic | olive oil</div>
+                    </div>
+                    <div class="item-price">₱160</div> 
+                </div>
+
+                <div class="menu-item">
+                    <div class="item-info">
+                        <div class="tag-wrapper">
+                            <div class="item-name"><img src="like.png" alt="like">Chicken Alfredo <img src="pork.png" alt="pork"></div>
+                        </div>
+                        <div class="item-ingredients">linguine pasta | creamy sauce | chicken strips</div>
+                    </div>
+                    <div class="item-price">₱190</div> 
+                </div>
+
+                <div class="menu-item">
+                    <div class="item-info">
+                        <div class="tag-wrapper">
+                            <div class="item-name"><img src="like.png" alt="like">Creamy Chicken Pesto <img src="pork.png" alt="pork"></div>
+                        </div>
+                        <div class="item-ingredients">penne pasta | pesto | cream | chicken strips</div>
+                    </div>
+                    <div class="item-price">₱190</div> 
+                </div>
+
+                <div class="menu-item">
+                    <div class="item-info">
+                        <div class="tag-wrapper">
+                            <div class="item-name">Spanish Sardines Pasta</div>
+                        </div>
+                        <div class="item-ingredients">spaghetti pasta | garlic | olive oil | spanish sardines | tomato</div>
+                    </div>
+                    <div class="item-price">₱180</div> 
+                </div>
+
+                <div class="menu-item">
+                    <div class="item-info">
+                        <div class="tag-wrapper">
+                            <div class="item-name">Tuna Pesto</div>
+                        </div>
+                        <div class="item-ingredients">linguine pasta | tuna | pesto | tomato</div>
+                    </div>
+                    <div class="item-price">₱190</div> 
+                </div>
+
+                <div class="menu-item">
+                    <div class="item-info">
+                        <div class="tag-wrapper">
+                            <div class="item-name"><img src="like.png" alt="like">Beef Stroganoff <img src="pork.png" alt="pork"></div>
+                        </div>
+                        <div class="item-ingredients">penne pasta | beef | mushroom | creamy and savory sauce</div>
+                    </div>
+                    <div class="item-price">₱190</div> 
+                </div>
+
+                <div class="menu-item">
+                    <div class="item-info">
+                        <div class="tag-wrapper">
+                            <div class="item-name">Amatriciana <img src="pork.png" alt="pork"></div>
+                        </div>
+                        <div class="item-ingredients">linguine pasta | bacon | tomato sauce</div>
+                    </div>
+                    <div class="item-price">₱180</div> 
+                </div>
+
+                <div class="menu-item">
+                    <div class="item-info">
+                        <div class="tag-wrapper">
+                            <div class="item-name">Red Pesto</div>
+                        </div>
+                        <div class="item-ingredients">linguine pasta | shrimp | pesto | tomato sauce</div>
+                    </div>
+                    <div class="item-price">₱190</div> 
+                </div>
+
+                <div class="menu-item">
+                    <div class="item-info">
+                        <div class="tag-wrapper">
+                            <div class="item-name">Charlie Chan</div>
+                        </div>
+                        <div class="item-ingredients"> pasta | savory soy-based sauce | pesto | tomato sauce</div>
+                    </div>
+                    <div class="item-price">₱180</div> 
+                </div>
+
+                <div class="menu-item">
+                    <div class="item-info">
+                        <div class="tag-wrapper">
+                            <div class="item-name">Lemmon Butter Pasta</div>
+                        </div>
+                        <div class="item-ingredients"> linguine pasta | lemon butter | salmon strips</div>
+                    </div>
+                    <div class="item-price">₱210</div> 
+                </div>
+
+                <div class="menu-item">
+                    <div class="item-info">
+                        <div class="tag-wrapper">
+                            <div class="item-name">Spaghetti & Meatballs Pasta <img src="pork.png" alt="pork"></div>
+                        </div>
+                        <div class="item-ingredients"> spaghetti | meatballs | tomato sauce</div>
+                    </div>
+                    <div class="item-price">₱210</div> 
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="scripts.js"></script>
+
+</body>
+</html>

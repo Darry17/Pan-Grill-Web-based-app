@@ -221,11 +221,11 @@ html, body {
 .menu-item {
     display: flex;
     justify-content: space-between;
-    align-items: flex-start; 
+    align-items: center;
     padding: 15px 10px;
     border-bottom: 1px solid var(--border-color);
     transition: background 0.2s ease;
-    gap: 15px;
+    gap: 10px;
     cursor: pointer;
     width: 100%;
 }
@@ -303,6 +303,7 @@ html, body {
     display: flex;
     align-items: center;
     justify-content: left;
+    line-height: 1.1;
 }
 
 .item-description {
@@ -315,6 +316,22 @@ html, body {
 .item-ingredients {
     font-size: 0.85rem;
     color: var(--muted-color);
+}
+
+.price-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: right;
+}
+
+.price-container .item-price{
+    padding: 0;
+    margin: 0;
+}
+
+.price-container .item-price span {
+    font-size: 10px;
+    justify-content: right;
 }
 
 .item-price {

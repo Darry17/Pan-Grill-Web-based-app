@@ -315,12 +315,15 @@ html, body {
 .item-ingredients {
     font-size: 0.85rem;
     color: var(--muted-color);
+    line-height: 1.2em;
+    padding-top: 6px;
 }
 
 .price-container {
     display: flex;
     flex-direction: column;
     justify-content: right;
+    margin-right: 10px;
 }
 
 .price-container .item-price{
@@ -422,6 +425,8 @@ html, body {
     
     .item-description {
         font-size: 0.85rem;
+        padding-top: 6px;
+        line-height: 1.2em;
     }
     
     .item-ingredients {
@@ -480,6 +485,8 @@ html, body {
     
     .item-description {
         font-size: 0.8rem;
+        padding-top: 6px;
+        line-height: 1.2em;
     }
     
     .item-ingredients {
@@ -507,5 +514,10 @@ html, body {
         padding: 0;
         margin: 0;
         width: 100%;
+    }
+
+    .item-ingredients {
+        padding-top: 6px;
+        line-height: 1.2em;
     }
 }

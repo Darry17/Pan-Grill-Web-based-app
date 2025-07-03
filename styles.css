@@ -228,6 +228,7 @@ html, body {
     gap: 10px;
     cursor: pointer;
     width: 100%;
+    margin: 0 10px;
 }
 
 .item-info {
@@ -519,5 +520,11 @@ html, body {
     .item-ingredients {
         padding-top: 6px;
         line-height: 1.2em;
+    }
+
+    .price-container {
+        display: flex;
+        flex-direction: row;
+        gap: 3em;
     }
 }
